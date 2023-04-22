@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(251, 252, 189);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  align-items: center;
+}
+
+.style-container {
+  border: 1px solid rgb(255, 143, 98);
+  height: 400px;
+  margin-right: 50px;
+  padding: 15px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.color {
+  margin-right: 12px;
+}
+
+.color-picker {
+  display: flex;
+  align-items: center;
+}
+
+.color-picker,
+.eraser,
+.clear,
+.colorful-rainbow,
+.adjustment {
+  border: 1px solid rgb(255, 143, 98);
+  margin-top: 14px;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.range-value {
+  color: rgb(255, 143, 98);
+  font-size: 22px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 52px;
+  margin-top: 40px;
+  color: rgb(255, 143, 98);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 600px;
+  height: 600px;
+  border: 3px solid black;
+}
+
+.grid-item {
+  border: 1px solid black;
+}

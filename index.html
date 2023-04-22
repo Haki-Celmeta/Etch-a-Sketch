@@ -8,5 +8,49 @@
     <link rel="icon" icon="image/png" />
     <title>Etch-a-Sketch</title>
   </head>
-  <body></body>
+  <body>
+    <div class="title">Etch-a-Sketch</div>
+
+    <div class="container">
+      <div class="style-container">
+        <div class="color-picker">
+          <div class="color">Pick a color:</div>
+          <input
+            type="color"
+            id="pick-color"
+            style="
+              padding: 0;
+              margin: 0;
+              border: none;
+              border-radius: 4px;
+              width: 50px;
+              height: 30px;
+            "
+          />
+        </div>
+        <div class="eraser">Eraser</div>
+        <div class="clear">Clear all</div>
+        <div class="colorful-rainbow">Colorful</div>
+        <div class="adjustment">
+          Adjust the grid:
+          <input
+            type="range"
+            min="2"
+            max="10"
+            value="2"
+            id="range-adjustment"
+            style="display: block; margin-top: 8px"
+          />
+          <div class="range-value">2x2</div>
+        </div>
+      </div>
+      <div class="grid-container">
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
