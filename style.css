@@ -6,6 +6,10 @@
   background-color: rgb(251, 252, 189);
 }
 
+body {
+  margin-bottom: 20px;
+}
+
 .container {
   display: flex;
   justify-content: center;
